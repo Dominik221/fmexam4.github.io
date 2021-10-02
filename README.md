@@ -17,8 +17,8 @@ This is a solution to the [Profile card component challenge hub on Frontend Ment
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/3column-preview-card-component-with-scss-cis08iRXX)
-- [Live Site URL:](https://dominik221.github.io/fmexam3.github.io/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/profile-card-component-with-scss-mlq269O2S)
+- [Live Site URL:](https://dominik221.github.io/fmexam4.github.io/)
 
 ## My process
 
