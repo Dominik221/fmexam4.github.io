@@ -1,0 +1,87 @@
+//
+// GENERALS
+// ----------------------------------------------
+
+
+body {
+    min-height: 100vh;
+    background-color: $color-bg-body;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $font-family;
+
+    background-image:   url(../images/bg-pattern-top.svg), 
+                        url(../images/bg-pattern-bottom.svg);
+    background-size: 100%;                    
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 30vw bottom 50vh, left 38vw top 40vh;
+
+}
+
+
+
+.info {
+    background-color: #fff;
+    border-bottom: .03125rem solid hsl(0, 0%, 59%);
+}
+
+.gx-0 {
+    background-color: #fff;
+    border-radius: 0 0 .75rem .75rem;
+    -webkit-border-radius: 0 0 .75rem .75rem;
+    -moz-border-radius: 0 0 .75rem .75rem;
+    -ms-border-radius: 0 0 .75rem .75rem;
+    -o-border-radius: 0 0 .75rem .75rem;
+}
+
+.personal {
+    text-align: center;
+}
+
+
+.stats {
+    margin-top: .9375rem;
+    text-align: center;
+
+    li {
+        list-style: none;
+    }
+
+    li:nth-child(1) {
+        color: $color-text-darken;
+        font: {
+            size: 1.125rem;
+            weight: 800;
+        }
+    }
+
+    li:nth-child(2) {
+        color: $color-text-lighten;
+        font: {
+            size: .6875rem;
+            weight: 500;
+        }
+    }
+}
+
+.followers,
+.likes,
+.photos {
+    padding-left: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+
+    .attribution {
+        color:#fff
+    }
+
+    a {
+        color: $color-text-darken;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,23 @@
+//
+// IMAGES
+// ----------------------------------------------
+
+
+.personal-image {
+    border: .3125rem solid white;
+    margin-top: -3.125rem;
+    border-radius: 3.125rem;
+    -webkit-border-radius: 3.125rem;
+    -moz-border-radius: 3.125rem;
+    -ms-border-radius: 3.125rem;
+    -o-border-radius: 3.125rem;
+}
+
+.card-image {
+    background: $color-bg-body;
+    border-radius: 1rem 1rem 0 0;
+    -webkit-border-radius: 1rem 1rem 0 0;
+    -moz-border-radius: 1rem 1rem 0 0;
+    -ms-border-radius: 1rem 1rem 0 0;
+    -o-border-radius: 1rem 1rem 0 0;
+}
